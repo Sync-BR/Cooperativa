@@ -6,46 +6,133 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/inicio.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <title>Cooporativa</title>
     </head>
 
     <body>
+        <!-- Cabeçalho -->
         <header><h1><a href="index.html">Cooporativa</a></h1></header>
-         <nav>
-           <li><a href="#">INICIO</a></li>
-           <li><a href="#">SOBRE</a></li>
-           <li><a href="#">VAGAS</a></li>
-           <li><a href="#">CONTATO</a></li>
+         <!--Menu  -->
+        <nav>
+            <section>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">VAGAS</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </section>
          </nav>
-    </body>
-    <main id="inicio"></main>
 
-    <footer>
-        <div class="rodape-info">
-            <div class="rodape-info-imagens">
-                <img src="./img/rodape/email.ico" alt="Email"><br>
-                <img src="./img/rodape/Whatsapp.ico" alt="Whatsapp"><br>
-                <img src="./img/rodape/maps.ico" alt="Google maps"><br>
-            </div>
-            <div class="rodape-info-sobre">
-                <p><strong>Email:</strong> <a href="eduardofreitasfr@gmail.com">Eduardofreitasfr@gmail.com</a></p>
-                <p><strong>Whatsapp</strong> <a target="_blank" href="https://api.whatsapp.com/send?phone=5571981590149">+55 (71) 9 8159-0149</a></p>
-                <p><strong>Mapa:</strong> <a href="#">Maps</a></p>
+            <!-- Pagina Inicial -->
+            <main id="inicio">
+
+                <!-- Bootstraps slider -->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slider 1 -->
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 slider-imgs" src="./img/slider/slider1.jpg" alt="Primeiro Slide" height="400px">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>TITULO</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate facilis sequi consequuntur consequatur praesentium id? Explicabo officiis ullam numquam, qui, iusto sit iste dolores repellat impedit id natus ad?</p>
+                    </div>
+                    
+                    </div>
+                        <!-- Slider 2 -->
+                      <div class="carousel-item">
+                        <img class="d-block w-100 slider-imgs" src="./img/slider/slider2.jpg" alt="Segundo Slide" height="400px">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>TITULO</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate facilis sequi consequuntur consequatur praesentium id? Explicabo officiis ullam numquam, qui, iusto sit iste dolores repellat impedit id natus ad?</p>
+                        </div>
+                    </div>
+                        <!--Slider 3  -->
+                      <div class="carousel-item">
+                        <img class="d-block w-100 slider-imgs" src="./img/slider/slider3.jpg" alt="Terceiro Slide" height="400px">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>TITULO</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate facilis sequi consequuntur consequatur praesentium id? Explicabo officiis ullam numquam, qui, iusto sit iste dolores repellat impedit id natus ad?</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+                <!-- Fim slider -->
                 
-            </div>
-        </div>
-        <div class="rodape-paginas">
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">VAGAS</a></li>
-            <li><a href="#">CONTATO</a></li>
-        </div>
-    </footer>
+                <!-- Equipe -->
+                <div id="equpes-qualificada">
 
+                    <div class="qualifica-experiencia">
+                        <img src="./img/qualifica/enfermeiro.png" alt="Enfermeiro">
+                        <h3>Equipe Experiente</h3>
+                        <P>
+                            Contamos com uma equipe altamente qualificada, composta por profissionais capacitados que estão prontos para fornecer atendimento eficiente e de qualidade.
+                        </P>
+                    </div>
 
+                    <div class="qualifica-experiencia">
+                            <img src="./img/qualifica/Estetoscopio.png" alt="Enfermeiro">
+                            <h3>Compromisso com a Gestão</h3>
+                            <P>
+                                Assumimos a responsabilidade completa pela gestão da escala dos nossos clientes. Isso significa que cuidamos de todos os aspectos relacionados aos horários de atendimento, permitindo que você se concentre no que é mais importante: o cuidado dos pacientes.
+                            </P>
+                       
+                    </div>
+
+                    <div class="qualifica-experiencia">
+                        <img src="./img/qualifica/garantia.png" alt="Enfermeiro">
+                        <h3>Equipe Experiente</h3>
+                        <P>
+                            Com sede em Salvador - BA, nossa cooperativa atende com excelência toda a região metropolitana, abrangendo o norte e o nordeste do país. Nossa infraestrutura foi cuidadosamente desenvolvida para garantir um ambiente propício ao atendimento de qualidade.
+                        </P>
+                    </div>
+                </div>
+
+            </main>
+
+         <footer id="rodape">
+                <div class="rodape-info">
+                    <div class="rodape-info-imagens">
+                        <img src="./img/rodape/email.ico" alt="Email"><br>
+                        <img src="./img/rodape/Whatsapp.ico" alt="Whatsapp"><br>
+                        <img src="./img/rodape/maps.ico" alt="Google maps"><br>
+                    </div>
+                    <div class="rodape-info-sobre">
+                        <p><strong>Email:</strong> <a href="eduardofreitasfr@gmail.com">Eduardofreitasfr@gmail.com</a></p>
+                        <p><strong>Whatsapp</strong> <a target="_blank" href="https://api.whatsapp.com/send?phone=5571981590149">+55 (71) 9 8159-0149</a></p>
+                        <p><strong>Mapa:</strong> <a href="#">Maps</a></p>   
+                    </div>
+                </div>
+                <div class="rodape-paginas">
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">VAGAS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </div>
+        </footer>
+    </body>
+    
+<!-- Bootsraps -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <!--Fonts-->
     <!--  Oxygen-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <!-- Playfair  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
 </html>

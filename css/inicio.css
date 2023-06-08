@@ -1,0 +1,58 @@
+#inicio{
+    display: block;
+    background-color: #F2D7D0;
+    width: 100%;
+    height: auto;
+    padding-top:61px;
+}
+    /* Sliders */
+    #carouselExampleFade h5{
+        color: white;
+        font-size: 3em;
+        text-transform: capitalize;
+        text-shadow: -2px -1px black;
+    }
+    #carouselExampleFade p{
+        color: white;
+        font-size: 16px;
+        text-transform: capitalize;
+        text-shadow: -2px -1px black;
+    }
+
+#equpes-qualificada{
+    display: flex;
+    flex-direction: row;
+    grid-auto-flow: column;
+    grid-template-columns: 400px 500px 400px;
+    grid-gap: 20px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 2px;
+    padding: 1%;
+  
+}
+    .qualifica-experiencia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .qualifica-experiencia img{
+            width: 92px;
+            height: 92px;
+        }
+        .qualifica-experiencia h3{
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+        }
+        .qualifica-experiencia p{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+
+
+
+
