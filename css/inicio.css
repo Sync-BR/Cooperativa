@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     padding-top:61px;
+
 }
     /* Sliders */
     #carouselExampleFade h5{
@@ -29,8 +30,8 @@
     width: 100%;
     height: auto;
     justify-content: center;
-    margin-top: 2px;
     padding: 1%;
+    border-top:1px solid black ;
   
 }
     .qualifica-experiencia {

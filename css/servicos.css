@@ -1,0 +1,32 @@
+#servicos{
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top:61px;
+    border-top:1px solid black ;
+}
+    .titulo-servicos{
+        text-align: center;
+        font-family: 'PT Serif', serif;
+        font-size: 3em;
+    }
+#servicos-noticias{
+    display: grid;
+    grid-auto-flow: row;
+    height: auto;
+}
+    .noticias-post{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 11px;
+    }
+
+    .noticias-img img{
+        width: 200px;
+        height: 160px;
+        
+    }
+    .noticias-textos{
+        margin-left: 5px;
+    }
