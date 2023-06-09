@@ -1,0 +1,44 @@
+#vagas{
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top:61px;
+    border-top:1px solid black ;
+}
+    .vagas-titulo{
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+    .vagas-descricao{
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 1em;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+    }
+.vagas-all{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+    .vagas-all summary{
+        border:1px solid black;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .vagas-li{
+        list-style: inside;
+        margin-left: 10px;
+    }
+    .vagas-botao{
+        background-color: antiquewhite;
+        width: 8rem;
+        height: 3rem;
+        margin-left: 50%;
+        margin-bottom: 2%;
+    }

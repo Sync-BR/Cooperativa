@@ -10,6 +10,8 @@
         text-align: center;
         font-family: 'PT Serif', serif;
         font-size: 3em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
     }
 #servicos-noticias{
     display: grid;
@@ -30,3 +32,7 @@
     .noticias-textos{
         margin-left: 5px;
     }
+        .noticias-textos h5{
+            font-family: 'Geologica', sans-serif;
+            font-size: 2em;
+        }
