@@ -1,0 +1,52 @@
+main{
+    padding-top: 10%;
+    width:100%;
+    height: auto;
+}
+#pagina-de-vagas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+    .pagina-de-vagas-titulo{
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .pagina-de-vagas-texto{
+        margin-top: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .pagina-vagas-formulario{
+        background-color: rgba(245, 245, 245, 0.239);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+    }
+        .pagina-vagas-formulario h2{
+            font-size: 3em;
+        }
+        .pagina-vagas-formulario-text{
+            width: 300px;
+            height: 50px;
+        }
+    .pagina-vagas-formulario-button{
+        background-color: orange;
+        width: 10rem;
+        height: 5rem;
+        color: white;
+        font-size: 2em;
+        font-weight: bolder;
+        text-shadow: -1px -2px black;
+    
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border:1px solid orange;
+    }

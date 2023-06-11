@@ -1,7 +1,7 @@
 #contato{
     display: block;
     background-color: white;
-    width: 100%;
+    width: auto;
     height: auto;
     border-top:1px solid black ;
 }
@@ -43,6 +43,7 @@
         margin-top: 250px;
     }
     .pagina-formulario{
+        width: auto;
         margin-top: 10%;
         margin-left: 50%;
     }

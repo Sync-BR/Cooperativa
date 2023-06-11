@@ -1,0 +1,212 @@
+@media screen and  (max-width: 1100px){
+body{
+    width: auto;
+    height: auto;
+}
+.contato-texto h3  {
+    left: 130px;
+}
+    .contato-texto p{
+        left: 135px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .contato-texto h3  {
+        left: 120px;
+    }
+        .contato-texto p{
+            left: 125px;
+        }
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .contato-texto h3  {
+        left: 20px;
+        font-size: 6em;
+    }
+        .contato-texto p{
+            left: 25px;
+            font-size: 16px;
+            margin-top: 230px;
+        }
+}
+
+@media screen and (max-width: 960px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .contato-texto h3  {
+        left: 10px;
+        font-size: 5em;
+    }
+        .contato-texto p{
+            left: 25px;
+            font-size: 16px;
+            margin-top: 230px;
+        }
+}
+
+@media screen and (max-width: 810px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .contato-texto h3  {
+        left: 10px;
+        font-size: 4em;
+    }
+        .contato-texto p{
+            left: 15px;
+            font-size: 16px;
+            margin-top: 190px;
+        }
+}
+
+
+@media screen and (max-width: 750px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .pagina-formulario{
+        margin-left: 45%;
+        width: auto;
+    }
+    .contato-texto h3  {
+        left: 10px;
+        font-size: 4em;
+    }
+        .contato-texto p{
+            left: 15px;
+            font-size: 16px;
+            margin-top: 190px;
+        }
+}
+
+
+@media screen and (max-width: 700px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .pagina-formulario{
+        margin-left: 42%;
+        width: auto;
+    }
+    .contato-texto h3  {
+        left: 10px;
+        margin-top: 70px;
+        font-size: 3em;
+    }
+        .contato-texto p{
+            left: 15px;
+            font-size: 16px;
+            margin-top: 140px;
+            width: 260px;
+        }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .pagina-formulario{
+        margin-left: 32%;
+        width: auto;
+    }
+    .contato-texto h3  {
+        left: 10px;
+        margin-top: 70px;
+        font-size: 2em;
+    }
+        .contato-texto p{
+            left: 15px;
+            font-size: 16px;
+            margin-top: 110px;
+            width: 180px;
+        }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    #pagina-contatos{
+        width: 100%;
+        height: auto;
+    }
+    .pagina-formulario{
+        margin:0;
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 100%;
+    }
+    .contato-texto h3  {
+        text-align: center;
+        left: 20%;
+        margin-top: 10px;
+        font-size: 4em;
+    }
+        .contato-texto p{
+            left: 20px;
+            font-size: 16px;
+            margin-top: 90px;
+            width: 100%;
+        }
+}
+
+
+@media screen and (max-width: 420px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: auto;
+    }
+
+    #pagina-contatos{
+        background-color: aqua;
+        width:100%;
+        height: auto;
+    }
+        .pagina-formulario{
+            margin:0;
+            margin-left: 20px;
+            margin-top: 150px;
+            width: 100%;
+        }
+        .pagina-formulario-texto{
+            width: 20rem;
+            height: 5rem;
+            margin-bottom: 1px;
+        }
+        .pagina-formulario-mensagem{
+            width: 20rem;
+            height: 10rem;
+            margin-bottom: 1px;
+        }
+    .contato-texto h3  {
+        text-align: center;
+        left: 10%;
+        margin-top: 10px;
+        font-size: 4em;
+    }
+        .contato-texto p{
+            left: 10px;
+            font-size: 16px;
+            margin-top: 90px;
+            width: 100%;
+        }
+}
