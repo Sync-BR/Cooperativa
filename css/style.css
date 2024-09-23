@@ -95,20 +95,20 @@ nav{
                 color: white;
                 text-decoration: none;
             }
-.rodape-paginas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    width: 50%;
-}
-    .rodape-paginas li{
-        margin-top: 5px;
+    .rodape-paginas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 50%;
     }
-    .rodape-paginas a{
-        font-family: Arial, Helvetica, sans-serif;
-        text-transform: capitalize;
-        text-decoration: none;
-        color: white;
-    
-    }
+        .rodape-paginas li{
+            margin-top: 5px;
+        }
+        .rodape-paginas a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: white;
+        
+        }
